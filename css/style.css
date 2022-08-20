@@ -886,6 +886,9 @@ body::-webkit-scrollbar-thumb:hover {
   #contact-section .project-container, #projects-section .project-container, #skills-section .project-container, #legal-section .project-container {
     width: 100%;
   }
+  #contact-section .project-container h3, #projects-section .project-container h3, #skills-section .project-container h3, #legal-section .project-container h3 {
+    font-size: 2vh;
+  }
   #contact-section .project-container .responsive, #projects-section .project-container .responsive, #skills-section .project-container .responsive, #legal-section .project-container .responsive {
     display: block;
     font-size: 2vw;
@@ -901,7 +904,6 @@ body::-webkit-scrollbar-thumb:hover {
   }
   #contact-section h2, #projects-section h2, #skills-section h2, #legal-section h2 {
     text-align: center;
-    font-size: 4vh;
     margin-top: 3vh;
     margin-bottom: 1vh;
   }
@@ -917,6 +919,32 @@ body::-webkit-scrollbar-thumb:hover {
     width: 12vw;
     height: auto;
     border-radius: 0;
+  }
+}
+
+#contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 70%;
+}
+@media all and (max-width: 1000px) {
+  #contact-section {
+    flex-direction: column;
+  }
+}
+#contact-section h3 {
+  font-size: 3vh;
+}
+@media all and (max-width: 1000px) {
+  #contact-section .pp {
+    max-height: 30vh;
+    width: auto;
+  }
+  #contact-section h3 {
+    font-size: 2vh;
   }
 }
 

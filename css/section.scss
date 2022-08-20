@@ -115,8 +115,6 @@
         border-radius: 100%;
     }
 
-
-
     @media all and (max-width: 1000px) {
         width: 90%;
         flex-wrap: nowrap;
@@ -127,6 +125,9 @@
 
         .project-container {
             width: 100%;
+            h3 {
+                font-size: 2vh;
+            }
             .responsive {
                 display: block;
                 font-size: 2vw;
@@ -154,7 +155,6 @@
 
         h2 {
             text-align: center;
-            font-size: 4vh;
             margin: {
                 top: 3vh;
                 bottom: 1vh;
@@ -175,6 +175,28 @@
                     border-radius: 0;
                 }
             }
+        }
+    }
+}
+
+#contact-section {
+    @include flex(column, center);
+    flex-wrap: nowrap;
+
+    width: 70%;
+
+    h3 {
+        font-size: 3vh;
+    }
+
+    @media all and (max-width: 1000px) {
+        .pp {
+            max-height: 30vh;
+            width: auto;
+        }
+
+        h3 {
+            font-size: 2vh;
         }
     }
 }
