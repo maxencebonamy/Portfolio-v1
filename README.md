@@ -4,6 +4,8 @@ Personal portfolio of Maxence Bonamy.
 
 Static website presenting the author and a list of personal programming projects, each with an animated preview and the technologies it uses. This is the first version of the portfolio and is not hosted anywhere.
 
+![Home page of the portfolio](assets/img/hero.png)
+
 ## Table of contents
 
 - [Portfolio v1](#portfolio-v1)
@@ -42,7 +44,7 @@ Static website presenting the author and a list of personal programming projects
 ├── assets/
 │   ├── font/           Local fonts
 │   ├── gif/            Project previews
-│   └── img/            Pictures and technology icons
+│   └── img/            Pictures, technology icons and README screenshot
 ├── css/                SCSS sources and compiled style.css
 ├── js/
 │   ├── menu.js         Mobile menu toggle
